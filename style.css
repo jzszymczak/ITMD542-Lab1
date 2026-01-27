@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    padding: 15px 40px;
+}
+
+.nav p {
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    padding-left: 9.4rem;
+}
+
+.nav ul {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    padding-left: 50rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.nav li button {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+}
