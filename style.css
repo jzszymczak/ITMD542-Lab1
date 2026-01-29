@@ -45,6 +45,18 @@
 
 .second {
     background-color: #F8FAFC;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.second h2 {
+    padding-bottom: 1rem;
+}
+
+.second-container {
+    width: 65%;
 }
 
 .first h1 {
@@ -56,6 +68,10 @@
 }
 
 .first h2 {
+    color: #E5E7EB;
+}
+
+.third h2 {
     color: #E5E7EB;
 }
 
@@ -105,4 +121,29 @@
 .intro-text button {
     cursor: pointer;
     padding: 5px 15px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 20rem;
+}
+
+.third h2 {
+    padding: 1rem 0;
+}
+
+#message {
+    height: 4rem;
+}
+
+#submit-button {
+    width: 10rem;
 }
