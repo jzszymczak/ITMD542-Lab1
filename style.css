@@ -4,8 +4,10 @@
 
 body {
     font-family: 'SN Pro', sans-serif;
+
 }
 
+/* Navigation Bar */
 .nav {
     display: flex;
     justify-content: flex-start;
@@ -43,6 +45,7 @@ body {
     padding: 10px 15px;
 }
 
+/* Sections */
 .first,.third {
     background-color: #0F172A;
 }
@@ -57,10 +60,6 @@ body {
 
 .second h2 {
     padding-bottom: 1rem;
-}
-
-.second-container {
-    width: 65%;
 }
 
 .first h1 {
@@ -81,6 +80,13 @@ body {
     margin-top: 1rem;
 }
 
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Intro Section */
 .cards {
     display: flex;
     flex-direction: column;
@@ -89,15 +95,15 @@ body {
     gap: 1rem;
     padding: 1.5rem;
     border: 2px solid #E5E7EB;
-    height: 150px;
-    width: 200px;
+    height: 180px;
+    width: 215px;
     background: #1A202C;
 }
 
 .cards-container {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     padding-bottom: 1.5rem;
 }
 
@@ -127,14 +133,21 @@ body {
 .intro-text button {
     cursor: pointer;
     padding: 5px 15px;
+    background-color: black;
+    color: #CBD5E1;
+    font-size: 17px;
 }
 
-.third {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* About Section */
+.second-container {
+    width: 65%;
 }
 
+.second h2 {
+    font-size: 30px;
+}
+
+/* Form Section  */
 .third form {
     display: flex;
     flex-direction: column;
